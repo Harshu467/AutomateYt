@@ -2,24 +2,25 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copy backend project
-COPY ./backend ./
+# Copy backend
+COPY ./backend ./backend
 
-# Restore dependencies
+# 🔥 Move into correct project folder
+WORKDIR /src/backend/API
+
+# Restore + publish
 RUN dotnet restore
-
-# Publish app
 RUN dotnet publish -c Release -o /app/out
 
-# ---------- RUNTIME STAGE ----------
+# ---------- RUNTIME ----------
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 
 # Install ffmpeg
 RUN apt-get update && apt-get install -y ffmpeg
 
-# Copy built app
+# Copy built output
 COPY --from=build /app/out .
 
-# ⚠️ IMPORTANT: check your project name
+# Run app
 ENTRYPOINT ["dotnet", "API.dll"]
