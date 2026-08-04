@@ -1,0 +1,9 @@
+/workspaces/AutomateYt/backend/API/obj/Debug/net8.0/API.csproj.AssemblyReference.cache
+/workspaces/AutomateYt/backend/API/obj/Debug/net8.0/rpswa.dswa.cache.json
+/workspaces/AutomateYt/backend/API/obj/Debug/net8.0/API.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/AutomateYt/backend/API/obj/Debug/net8.0/API.AssemblyInfoInputs.cache
+/workspaces/AutomateYt/backend/API/obj/Debug/net8.0/API.AssemblyInfo.cs
+/workspaces/AutomateYt/backend/API/obj/Debug/net8.0/API.csproj.CoreCompileInputs.cache
+/workspaces/AutomateYt/backend/API/obj/Debug/net8.0/API.MvcApplicationPartsAssemblyInfo.cs
+/workspaces/AutomateYt/backend/API/obj/Debug/net8.0/API.MvcApplicationPartsAssemblyInfo.cache
+/workspaces/AutomateYt/backend/API/obj/Debug/net8.0/API.sourcelink.json

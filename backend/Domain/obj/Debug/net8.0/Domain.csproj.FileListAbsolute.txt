@@ -1,0 +1,12 @@
+/workspaces/AutomateYt/backend/Domain/bin/Debug/net8.0/Domain.deps.json
+/workspaces/AutomateYt/backend/Domain/bin/Debug/net8.0/Domain.dll
+/workspaces/AutomateYt/backend/Domain/bin/Debug/net8.0/Domain.pdb
+/workspaces/AutomateYt/backend/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/AutomateYt/backend/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/workspaces/AutomateYt/backend/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/workspaces/AutomateYt/backend/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/workspaces/AutomateYt/backend/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+/workspaces/AutomateYt/backend/Domain/obj/Debug/net8.0/Domain.dll
+/workspaces/AutomateYt/backend/Domain/obj/Debug/net8.0/refint/Domain.dll
+/workspaces/AutomateYt/backend/Domain/obj/Debug/net8.0/Domain.pdb
+/workspaces/AutomateYt/backend/Domain/obj/Debug/net8.0/ref/Domain.dll

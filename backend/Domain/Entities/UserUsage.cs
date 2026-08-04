@@ -4,6 +4,10 @@ public class UserUsage
 {
     public int Id { get; set; }
     public int UserId { get; set; }
-    public int VideosGenerated { get; set; }
-    public DateTime ResetDate { get; set; } = DateTime.UtcNow.Date;
+    public string UsageType { get; set; } = string.Empty;
+    public int Quantity { get; set; }
+    public DateTime RecordedAt { get; set; } = DateTime.UtcNow;
+    public string? ContextRef { get; set; }
+
+    public User? User { get; set; }
 }
